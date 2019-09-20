@@ -82,7 +82,7 @@ print(d.shape)
 
 # write csv
 print("Writing processed data...")
-d.to_csv('processed_data/file1.csv')
+d.to_csv('processed_data/file1.csv', index=False)
 print("Finish")
 
 # line chart
