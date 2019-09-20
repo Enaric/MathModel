@@ -14,8 +14,8 @@ def str_to_datetime(st):
 
 # read csv
 # d = pd.read_csv('original_data/file1.csv', usecols=['时间', 'GPS车速'])
-d = pd.read_csv('original_data/file2.csv', usecols=['时间', 'GPS车速'])
-# d = pd.read_csv('original_data/file3.csv', usecols=['时间', 'GPS车速'])
+# d = pd.read_csv('original_data/file2.csv', usecols=['时间', 'GPS车速'])
+d = pd.read_csv('original_data/file3.csv', usecols=['时间', 'GPS车速'])
 print("Before data processing,data shape is:")
 print(d.shape)
 
@@ -24,10 +24,10 @@ print("Data processing...")
 # 1 data transform --replace datatime to time series
 # d['时间'] = d['时间'].apply(lambda x: int(
 #     (str_to_datetime(x.replace(".000.", "")) - datetime.datetime(2017, 12, 18, 13, 42, 12)).total_seconds()))
-d['时间'] = d['时间'].apply(lambda x: int(
-    (str_to_datetime(x.replace(".000.", "")) - datetime.datetime(2017, 11, 1, 19, 11, 51)).total_seconds()))
 # d['时间'] = d['时间'].apply(lambda x: int(
-#     (str_to_datetime(x.replace(".000.", "")) - datetime.datetime(2017, 12, 1, 19, 43, 56)).total_seconds()))
+#     (str_to_datetime(x.replace(".000.", "")) - datetime.datetime(2017, 11, 1, 19, 11, 51)).total_seconds()))
+d['时间'] = d['时间'].apply(lambda x: int(
+    (str_to_datetime(x.replace(".000.", "")) - datetime.datetime(2017, 12, 1, 19, 43, 56)).total_seconds()))
 
 # 2 data processing
 # TODO 重复值清洗（没有发现）
@@ -89,8 +89,8 @@ print(d.shape)
 # write csv
 print("Writing processed data...")
 # d.to_csv('processed_data/file1.csv', index=False)
-d.to_csv('processed_data/file2.csv', index=False)
-# d.to_csv('processed_data/file3.csv', index=False)
+# d.to_csv('processed_data/file2.csv', index=False)
+d.to_csv('processed_data/file3.csv', index=False)
 print("Finish")
 
 # line chart
