@@ -15,7 +15,7 @@ def calculate(filePath):
     # print(ave_speed)
 
     # 平均行驶速度
-    ave_runtime_speed = format(np.mean(d[d['GPS车速'] > 0]['GPS车速']), '.2f')
+    ave_runtime_speed = format(np.mean(d[d['GPS车速'] >= 10]['GPS车速']), '.2f')
     # print("平均行驶速度")
     # print(ave_runtime_speed)
 
@@ -48,7 +48,7 @@ def calculate(filePath):
     # print(ave_deceleration)
 
     # 怠速时间比
-    slow_rate = format(d[d['GPS车速'] == 0].shape[0] / d.shape[0], '.2f')
+    slow_rate = format(d[d['GPS车速'] < 10].shape[0] / d.shape[0], '.2f')
     # print("怠速时间比")
     # print(slow_rate)
 
@@ -71,6 +71,7 @@ def calculate(filePath):
     for i in range(d.shape[0] - 1):
         acceleration.append(d['GPS车速'][i + 1] - d['GPS车速'][i])
     # 加速度标准差
+    print(acceleration)
     std_acceleration = format(np.std(acceleration, ddof=1), '.2f')
     # print("加速度标准差")
     # print(std_acceleration)
