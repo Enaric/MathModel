@@ -12,83 +12,34 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Code$data_processing.coverage" NAME="data_processing Coverage Results" MODIFIED="1568996778010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Code$pca_test.coverage" NAME="pca_matplotlib Coverage Results" MODIFIED="1569126422408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$get_sample.coverage" NAME="get_sample Coverage Results" MODIFIED="1569147465935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Code$extract_fragments.coverage" NAME="extract_fragments Coverage Results" MODIFIED="1568997046545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$Kmeans.coverage" NAME="Kmeans Coverage Results" MODIFIED="1569131326441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$calculate_indicators.coverage" NAME="calculate_indicators Coverage Results" MODIFIED="1569002533425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$pca.coverage" NAME="pca Coverage Results" MODIFIED="1569130967751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$Kmeans.coverage" NAME="Kmeans Coverage Results" MODIFIED="1569146162034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$calculate_indicators.coverage" NAME="calculate_indicators Coverage Results" MODIFIED="1569144733104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$pca.coverage" NAME="pca Coverage Results" MODIFIED="1569145286111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Kmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kmeans.py">
+      <file leaf-file-name="get_sample.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="342">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#25#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="set.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cluster/cluster1/set.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="cluster2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/picture/k=4/cluster2.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="set.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster/cluster2/set.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="set.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster/cluster3/set.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="fragment42.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment42.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="fragment43.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment43.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="set.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluster/cluster4/set.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="file1_pca.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processed_data/fragments_set/file1_pca.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-535">
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract_fragments.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extract_fragments.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculate_indicators.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculate_indicators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-              <folding>
-                <element signature="e#25#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="cluster3.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/picture/k=4/cluster3.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -104,6 +55,13 @@
     <findStrings>
       <find>3.40,8.84,2.56,0.0,0.62,0.42,0.00,4.86,1.48</find>
       <find>3.40,8.84,2.56,0.0,0.62,0.42,0.00,4.86,1.4</find>
+      <find>0.07235718</find>
+      <find>['14.39' '16.99' '1.11' '</find>
+      <find>['9.92' '11.88' '0.99' '-0.8'</find>
+      <find>['3.4' '11.9' '2.56' '0.0' '0.85' '0</find>
+      <find>2017/12/18 13:42:13.000.,0,0,-0.396,-0.</find>
+      <find>14.39</find>
+      <find>'14.39' '16.99' '1.1</find>
       <find>nan</find>
     </findStrings>
     <replaceStrings>
@@ -120,15 +78,16 @@
         <option value="$PROJECT_DIR$/data_processing.py" />
         <option value="$PROJECT_DIR$/processed_data/file3.csv" />
         <option value="$PROJECT_DIR$/extract_fragments.py" />
-        <option value="$PROJECT_DIR$/calculate_indicators.py" />
         <option value="$PROJECT_DIR$/processed_data/fragments_set/file2.csv" />
         <option value="$PROJECT_DIR$/processed_data/fragments_set/file3.csv" />
         <option value="$PROJECT_DIR$/pca test.py" />
+        <option value="$PROJECT_DIR$/processed_data/fragments_set/file1_pca.csv" />
         <option value="$PROJECT_DIR$/pca_matplotlib.py" />
+        <option value="$PROJECT_DIR$/calculate_indicators.py" />
         <option value="$PROJECT_DIR$/processed_data/fragments_set/file1.csv" />
         <option value="$PROJECT_DIR$/pca.py" />
-        <option value="$PROJECT_DIR$/processed_data/fragments_set/file1_pca.csv" />
         <option value="$PROJECT_DIR$/Kmeans.py" />
+        <option value="$PROJECT_DIR$/get_sample.py" />
       </list>
     </option>
   </component>
@@ -187,13 +146,18 @@
             <path>
               <item name="Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
-              <item name="processed_data" type="462c0819:PsiDirectoryNode" />
+              <item name="original_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code" type="462c0819:PsiDirectoryNode" />
-              <item name="processed_data" type="462c0819:PsiDirectoryNode" />
-              <item name="fragments_set" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+              <item name="k=4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Kmeans">
+  <component name="RunManager" selected="Python.get_sample">
     <configuration name="Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,7 +235,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="extract_fragments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,7 +248,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_fragments.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,19 +293,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.extract_fragments" />
       <item itemvalue="Python.calculate_indicators" />
       <item itemvalue="Python.pca" />
       <item itemvalue="Python.pca_matplotlib" />
       <item itemvalue="Python.Kmeans" />
+      <item itemvalue="Python.get_sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_sample" />
         <item itemvalue="Python.Kmeans" />
         <item itemvalue="Python.pca" />
-        <item itemvalue="Python.pca_matplotlib" />
         <item itemvalue="Python.calculate_indicators" />
-        <item itemvalue="Python.extract_fragments" />
+        <item itemvalue="Python.pca_matplotlib" />
       </list>
     </recent_temporary>
   </component>
@@ -359,22 +323,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="-2" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30165288" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30027547" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292011" />
       <window_info anchor="right" id="SciView" order="3" weight="0.35264665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,7 +347,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,13 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/original_data/file1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80745">
-          <caret line="5383" column="16" selection-start-line="5383" selection-start-column="16" selection-end-line="5383" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -501,30 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pca_matplotlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="e#36#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_processing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="44" column="44" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processed_data/file1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -532,67 +465,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processed_data/fragments_set/file1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_fragments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculate_indicators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/cluster2/set.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/cluster4/set.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/cluster3/set.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment42.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment43.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/processed_data/fragments_set/file1_pca.csv">
+    <entry file="file://$PROJECT_DIR$/outfile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pca_matplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-535">
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#36#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original_data/file1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment304.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment612.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment611.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment303.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_fragments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculate_indicators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="e#25#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/cluster2/set.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/cluster3/set.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/cluster4/set.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/venv2/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="2524" selection-start-line="2524" selection-end-line="2524" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluster/cluster1/set.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5385">
+          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv2/lib/python3.6/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/cluster1/[-0.51805053  0.05706693 -0.00228571].csv">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/fragments_set/file1_pca.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/fragments_set/file1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#25#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/cluster1/-0.5173846438817027_0.05613012595157204_-0.002536207511098446.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processed_data/file1_fragments/fragment932.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/k=4/cluster1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/k=4/cluster2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/k=4/cluster3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture/k=4/cluster0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
