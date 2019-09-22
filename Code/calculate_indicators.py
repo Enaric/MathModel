@@ -79,7 +79,7 @@ def calculate(filePath):
     # print("加速度标准差")
     # print(std_acceleration)
 
-    line = [filePath, total_time, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate,
+    line = [filePath, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate,
             acceleration_rate, deceleration_rate, std_speed, std_acceleration]
 
     # out = open('processed_data/fragments_set/file1.csv', 'a', newline='')
