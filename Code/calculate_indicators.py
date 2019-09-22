@@ -51,7 +51,7 @@ def calculate(filePath):
     # print(ave_deceleration)
 
     # 怠速时间比
-    slow_rate = format(d[d['GPS车速'] < 10].shape[0] / d.shape[0], '.2f')
+    slow_rate = format(d[d['GPS车速'] == 0].shape[0] / d.shape[0], '.2f')
     # print("怠速时间比")
     # print(slow_rate)
 
@@ -79,7 +79,7 @@ def calculate(filePath):
     # print("加速度标准差")
     # print(std_acceleration)
 
-    line = [filePath, total_time, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate,
+    line = [filePath, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate,
             acceleration_rate, deceleration_rate, std_speed, std_acceleration]
 
     # out = open('processed_data/fragments_set/file1.csv', 'a', newline='')
