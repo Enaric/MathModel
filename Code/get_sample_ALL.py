@@ -32,10 +32,21 @@ simple2 = get_sample(filePath2, cluster_center2)
 simple3 = get_sample(filePath3, cluster_center3)
 
 
-print(simple0)  # processed_data/file2_fragments/fragment123.csv
-print(simple1)  # processed_data/file3_fragments/fragment4.csv
-print(simple2)  # processed_data/file1_fragments/fragment923.csv
-print(simple3)  # processed_data/file1_fragments/fragment118.csv
+print(simple0)
+# processed_data/file2_fragments/fragment123.csv
+# processed_data/file1_fragments/fragment747.csv
+# processed_data/file1_fragments/fragment444.csv
+print(simple1)
+# processed_data/file3_fragments/fragment4.csv
+# processed_data/file3_fragments/fragment32.csv
+# processed_data/file2_fragments/fragment366.csv
+print(simple2)
+# processed_data/file1_fragments/fragment923.csv
+# processed_data/file2_fragments/fragment370.csv
+print(simple3)
+# processed_data/file1_fragments/fragment118.csv
+# processed_data/file1_fragments/fragment119.csv
+# processed_data/file1_fragments/fragment412.csv
 
 
 def draw_simple(filePath, cluster):
@@ -44,7 +55,7 @@ def draw_simple(filePath, cluster):
     Y = loan_data["GPS车速"]
     plt.plot(X, Y)
     plt.plot(max(X+1),0)
-    plt.savefig('picture/k=4/cluster' + str(cluster) + '.jpg')
+    plt.savefig('picture/k=4/fileALL/cluster' + str(cluster) + '.jpg')
     plt.show()
     # print(loan_data)
 
@@ -52,4 +63,4 @@ def draw_simple(filePath, cluster):
 draw_simple("processed_data/file2_fragments/fragment123.csv", 0)
 draw_simple("processed_data/file3_fragments/fragment4.csv", 1)
 draw_simple("processed_data/file1_fragments/fragment923.csv", 2)
-draw_simple("processed_data/file1_fragments/fragment118.csv", 3)
+draw_simple("processed_data/file1_fragments/fragment119.csv", 3)

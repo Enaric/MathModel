@@ -9,6 +9,9 @@ def calculate(filePath):
     d = pd.read_csv(filePath)
     # print(d)
 
+    # 运动时长
+    total_time = d.shape[0]
+
     # 平均速度
     ave_speed = format(np.mean(d['GPS车速']), '.2f')
     # print("平均速度")
@@ -76,8 +79,9 @@ def calculate(filePath):
     # print("加速度标准差")
     # print(std_acceleration)
 
-    line = [filePath, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate, acceleration_rate,
-            deceleration_rate, std_speed, std_acceleration]
+    line = [filePath, total_time, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate,
+            acceleration_rate, deceleration_rate, std_speed, std_acceleration]
+
     # out = open('processed_data/fragments_set/file1.csv', 'a', newline='')
     # out = open('processed_data/fragments_set/file2.csv', 'a', newline='')
     # out = open('processed_data/fragments_set/file3.csv', 'a', newline='')
