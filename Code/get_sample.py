@@ -4,15 +4,15 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-filePath0 = 'cluster/cluster1/-0.5173846438817027_0.05613012595157204_-0.002536207511098446.csv'
-filePath1 = 'cluster/cluster2/0.4214707755895102_0.10000164458837456_-0.01591727130848888.csv'
-filePath2 = 'cluster/cluster3/0.07423795298071396_-0.22908419444423603_0.01115025977150878.csv'
-filePath3 = 'cluster/cluster4/-0.04781599251265637_0.1815417183243165_0.007219086865307944.csv'
+filePath0 = 'cluster/cluster1/-0.6421359708185889_0.014605582678106698_-0.03844262436214339.csv'
+filePath1 = 'cluster/cluster2/0.4598567108240415_0.10776014715803317_-0.060686486011832484.csv'
+filePath2 = 'cluster/cluster3/-0.1299293005749705_0.09195986100270996_0.05644192446732742.csv'
+filePath3 = 'cluster/cluster4/0.2051833116979913_-0.19156251659036425_0.03593441679764642.csv'
 
-cluster_center0 = [-0.5173846438817027, 0.05613012595157204, -0.002536207511098446]
-cluster_center1 = [0.4214707755895102, 0.10000164458837456, -0.01591727130848888]
-cluster_center2 = [0.07423795298071396, -0.22908419444423603, 0.01115025977150878]
-cluster_center3 = [-0.04781599251265637, 0.1815417183243165, 0.007219086865307944]
+cluster_center0 = [-0.6421359708185889, 0.014605582678106698, -0.03844262436214339]
+cluster_center1 = [0.4598567108240415, 0.10776014715803317, -0.060686486011832484]
+cluster_center2 = [-0.1299293005749705, 0.09195986100270996, 0.05644192446732742]
+cluster_center3 = [0.2051833116979913, -0.19156251659036425, -0.03593441679764642]
 
 
 # 计算最接近簇心的科学运动片段
@@ -32,10 +32,10 @@ simple2 = get_sample(filePath2, cluster_center2)
 simple3 = get_sample(filePath3, cluster_center3)
 
 
-# print(simple0)  # processed_data/file1_fragments/fragment932.csv
-# print(simple1)  # processed_data/file1_fragments/fragment189.csv
-# print(simple2)  # processed_data/file1_fragments/fragment855.csv
-# print(simple3)  # processed_data/file1_fragments/fragment1304.csv
+print(simple0)  # processed_data/file1_fragments/fragment594.csv
+print(simple1)  # processed_data/file1_fragments/fragment1167.csv
+print(simple2)  # processed_data/file1_fragments/fragment793.csv
+print(simple3)  # processed_data/file1_fragments/fragment101.csv
 
 
 def draw_simple(filePath, cluster):
@@ -43,12 +43,13 @@ def draw_simple(filePath, cluster):
     X = loan_data["时间"]-min(loan_data["时间"])
     Y = loan_data["GPS车速"]
     plt.plot(X, Y)
+    plt.plot(max(X+1),0)
     plt.savefig('picture/k=4/cluster' + str(cluster) + '.jpg')
     plt.show()
     # print(loan_data)
 
 
-draw_simple("processed_data/file1_fragments/fragment932.csv", 0)
-draw_simple("processed_data/file1_fragments/fragment189.csv", 1)
-draw_simple("processed_data/file1_fragments/fragment855.csv", 2)
-draw_simple("processed_data/file1_fragments/fragment1304.csv", 3)
+draw_simple("processed_data/file1_fragments/fragment594.csv", 0)
+draw_simple("processed_data/file1_fragments/fragment1167.csv", 1)
+draw_simple("processed_data/file1_fragments/fragment793.csv", 2)
+draw_simple("processed_data/file1_fragments/fragment101.csv", 3)

@@ -32,6 +32,19 @@ d['时间'] = d['时间'].apply(lambda x: int(
 # 2 data processing
 # TODO 重复值清洗（没有发现）
 
+# 2.0长期低速度行驶(超过20秒)
+i = 0
+while i < d.shape[0] - 1:
+    if d['GPS车速'][i] < 10:
+        forward = i
+        while d['GPS车速'][forward] < 10 and forward < d.shape[0] - 1:
+            forward += 1
+        if (forward - i) > 20:
+            d['GPS车速'][i:forward] = 0
+            i = forward + 1
+            continue
+    i += 1
+
 i = 0
 while i < d.shape[0] - 1:
     # 2.1 时间不连续删除整个运动片段
@@ -65,7 +78,7 @@ while i < d.shape[0] - 1:
             i = forward + 1
             # print("#2   " + str(i))
             continue
-    # 2.3长期停车/怠速(停车超过180秒)
+    # 2.3长期怠速(停车超过180秒)
     if d['GPS车速'][i] < 10:
         forward = i
         while d['GPS车速'][forward] < 10 and forward < d.shape[0] - 1:

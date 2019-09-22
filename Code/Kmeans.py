@@ -18,8 +18,6 @@ clf = KMeans(n_clusters=4)
 # 将数据代入到聚类模型中
 clf = clf.fit(loan)
 
-print(clf.cluster_centers_[0])
-
 loan_data['label'] = clf.labels_
 # print(loan_data.head())
 

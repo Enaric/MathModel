@@ -86,7 +86,7 @@ def calculate(filePath):
 
 
 if __name__ == '__main__':
-    for i in range(1353):
+    for i in range(1181):
         calculate("processed_data/file1_fragments/fragment" + str(i + 1) + ".csv")
     # for i in range(1247):
     #     calculate("processed_data/file2_fragments/fragment" + str(i + 1) + ".csv")
