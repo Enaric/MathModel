@@ -3,8 +3,10 @@
 # 主成分分析 降维
 import pandas as pd
 
-inputfile = 'processed_data/fragments_set/file1.csv'
-outputfile = 'processed_data/fragments_set/file1_pca.csv'  # 降维后的数据
+# inputfile = 'processed_data/fragments_set/file1.csv'
+inputfile = 'processed_data/fragments_set/all_file.csv'
+# outputfile = 'processed_data/fragments_set/file1_pca.csv'  # 降维后的数据
+outputfile = 'processed_data/fragments_set/all_file_pca.csv'  # 降维后的数据
 
 data = pd.read_csv(inputfile)  # 读入数据
 

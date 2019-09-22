@@ -78,9 +78,10 @@ def calculate(filePath):
 
     line = [filePath, ave_speed, ave_runtime_speed, ave_acceleration, ave_deceleration, slow_rate, acceleration_rate,
             deceleration_rate, std_speed, std_acceleration]
-    out = open('processed_data/fragments_set/file1.csv', 'a', newline='')
+    # out = open('processed_data/fragments_set/file1.csv', 'a', newline='')
     # out = open('processed_data/fragments_set/file2.csv', 'a', newline='')
     # out = open('processed_data/fragments_set/file3.csv', 'a', newline='')
+    out = open('processed_data/fragments_set/all_file.csv', 'a', newline='')
     csv_write = csv.writer(out, dialect='excel')
     csv_write.writerow(line)
 
@@ -88,7 +89,7 @@ def calculate(filePath):
 if __name__ == '__main__':
     for i in range(1181):
         calculate("processed_data/file1_fragments/fragment" + str(i + 1) + ".csv")
-    # for i in range(1247):
-    #     calculate("processed_data/file2_fragments/fragment" + str(i + 1) + ".csv")
-    # for i in range(1044):
-    #     calculate("processed_data/file3_fragments/fragment" + str(i + 1) + ".csv")
+    for i in range(725):
+        calculate("processed_data/file2_fragments/fragment" + str(i + 1) + ".csv")
+    for i in range(649):
+        calculate("processed_data/file3_fragments/fragment" + str(i + 1) + ".csv")
