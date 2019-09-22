@@ -51,7 +51,7 @@ def calculate(filePath):
     # print(ave_deceleration)
 
     # 怠速时间比
-    slow_rate = format(d[d['GPS车速'] < 10].shape[0] / d.shape[0], '.2f')
+    slow_rate = format(d[d['GPS车速'] == 0].shape[0] / d.shape[0], '.2f')
     # print("怠速时间比")
     # print(slow_rate)
 

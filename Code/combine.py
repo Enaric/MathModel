@@ -42,6 +42,7 @@ cluster4 = pd.concat([cluster4_1, cluster4_2, cluster4_3], axis=0)
 total = pd.concat([cluster4, cluster2, cluster1, cluster3], axis=0)
 print(total)
 total = total.reset_index()
+total.to_csv("clusterALL/final.csv")
 plt.figure(figsize=(12.5, 4))
 Y = total["GPS车速"]
 plt.plot(Y)
