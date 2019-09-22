@@ -41,7 +41,7 @@ loan_data3 = loan_data.loc[loan_data["label"] == 3]
 #     "clusterALL/cluster4/" + str(clf.cluster_centers_[3][0]) + "_" + str(clf.cluster_centers_[3][1]) + "_" + str(
 #         clf.cluster_centers_[3][2]) + ".csv")
 
-# TODO 聚类结果作图
+# 聚类结果作图
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.scatter(loan_data0['0'], loan_data0['1'], loan_data0['2'], c='b')
