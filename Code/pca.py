@@ -40,4 +40,4 @@ print(pca.explained_variance_ratio_)  # 返回各个成分各自的方差百分�
 pca = PCA(3)  # 选取累计贡献率大于80%的主成分（1个主成分）
 pca.fit(data_norm)
 low_d = pca.transform(data_norm)  # 降低维度
-pd.DataFrame(low_d).to_csv(outputfile)  # 保存结果
+pd.DataFrame(low_d, data).to_csv(outputfile)  # 保存结果
