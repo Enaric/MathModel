@@ -4,7 +4,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# TODO 待完善
 
 #计算均值,要求输入数据为numpy的矩阵格式，行表示样本数，列表示特征
 def meanX(dataX):
