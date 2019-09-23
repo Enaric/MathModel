@@ -23,7 +23,7 @@ def Z_score(data):
 
 
 index, cal = data["filePath"], data[["平均速度", "平均行驶速度", "平均加速度", "平均减速度", "怠速时间比", "加速时间比", "减速时间比", "速度标准差", "加速度标准差"]]
-data_norm = min_max(cal)
+data_norm = Z_score(cal)
 # data_norm["filePath"] = index
 print(data_norm.head())
 # 检测 nan
@@ -37,13 +37,14 @@ from sklearn.decomposition import PCA
 
 pca = PCA()  # 保留所有成分
 pca.fit(data_norm)
-print(pca.components_)  # 返回模型的各个特征向量
+
 print('每个成分各自方差百分比 :')
 print(pca.explained_variance_ratio_)  # 返回各个成分各自的方差百分比(也称贡献率）
 
 pca = PCA(3)  # 选取累计贡献率大于80%的主成分（1个主成分）
 pca.fit(data_norm)
+print(pca.components_)  # 返回模型的各个特征向量
 low_d = pca.transform(data_norm)  # 降低维度
 pca = pd.DataFrame(low_d, index)
-pd.concat([pca, cal], axis=1).to_csv(outputfile)
+# pd.concat([pca, cal], axis=1).to_csv(outputfile)
 # pd.DataFrame(low_d, index).to_csv(outputfile)  # 保存结果

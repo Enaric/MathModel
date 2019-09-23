@@ -45,7 +45,14 @@ total = total.reset_index()
 total.to_csv("clusterALL/final.csv")
 plt.figure(figsize=(12.5, 4))
 Y = total["GPS车速"]
-plt.plot(Y)
+Z = []
+for i in range(len(Y)-1):
+    Z.append(Y[i+1]-Y[i])
+print(Y)
+print(Z)
 
-plt.savefig('picture/k=4/fileALL/combined.jpg')
+plt.plot(Z[::4])
+
+# plt.savefig('picture/k=4/fileALL/combined.jpg')
+plt.savefig('picture/k=4/fileALL/jiasudu.jpg')
 plt.show()
